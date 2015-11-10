@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="BancoEmpresa" Class="Cadastros1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=localhost;Initial Catalog=BancoEmpresa;Integrated Security=True" SettingsObjectName="Cadastros1.DATA.Properties.Settings" SettingsPropertyName="BancoEmpresaConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.tblFuncionario" Member="tblFuncionarios">
+    <Type Name="tblFuncionario">
+      <Column Name="nldFuncionario" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="sNome" Type="System.String" DbType="VarChar(250) NOT NULL" CanBeNull="false" />
+      <Column Name="sNascimento" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="sCPF" Type="System.String" DbType="Char(14) NOT NULL" CanBeNull="false" />
+      <Column Name="sCargo" Type="System.String" DbType="VarChar(250) NOT NULL" CanBeNull="false" />
+      <Column Name="nldSetor" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="sSalario" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="tblSetor_tblFuncionario" Member="tblSetor" ThisKey="nldSetor" OtherKey="nldSetor" Type="tblSetor" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblSetor" Member="tblSetors">
+    <Type Name="tblSetor">
+      <Column Name="nldSetor" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="sSetor" Type="System.String" DbType="VarChar(250) NOT NULL" CanBeNull="false" />
+      <Association Name="tblSetor_tblFuncionario" Member="tblFuncionarios" ThisKey="nldSetor" OtherKey="nldSetor" Type="tblFuncionario" />
+    </Type>
+  </Table>
+</Database>

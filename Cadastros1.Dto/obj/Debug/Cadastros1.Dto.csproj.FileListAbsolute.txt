@@ -1,0 +1,8 @@
+c:\users\joaop\documents\visual studio 2012\Projects\Cadastros1\Cadastros1.Dto\bin\Debug\Cadastros1.Dto.dll.config
+c:\users\joaop\documents\visual studio 2012\Projects\Cadastros1\Cadastros1.Dto\bin\Debug\Cadastros1.Dto.dll
+c:\users\joaop\documents\visual studio 2012\Projects\Cadastros1\Cadastros1.Dto\bin\Debug\Cadastros1.Dto.pdb
+c:\users\joaop\documents\visual studio 2012\Projects\Cadastros1\Cadastros1.Dto\bin\Debug\EntityFramework.dll
+c:\users\joaop\documents\visual studio 2012\Projects\Cadastros1\Cadastros1.Dto\bin\Debug\EntityFramework.xml
+c:\users\joaop\documents\visual studio 2012\Projects\Cadastros1\Cadastros1.Dto\obj\Debug\Cadastros1.Dto.csprojResolveAssemblyReference.cache
+c:\users\joaop\documents\visual studio 2012\Projects\Cadastros1\Cadastros1.Dto\obj\Debug\Cadastros1.Dto.dll
+c:\users\joaop\documents\visual studio 2012\Projects\Cadastros1\Cadastros1.Dto\obj\Debug\Cadastros1.Dto.pdb

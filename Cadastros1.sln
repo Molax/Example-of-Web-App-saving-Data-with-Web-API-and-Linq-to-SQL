@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cadastros1.Web", "Cadastros1\Cadastros1.Web.csproj", "{0AA69ED1-81F2-4BED-B602-9010874D4CF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cadastros1.Bll", "Cadastros1.BLL\Cadastros1.Bll.csproj", "{C90A316B-AAE0-429C-A5F1-9C2B9B9A9734}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cadastros1.Dal", "Cadastros1.DAL\Cadastros1.Dal.csproj", "{070748C1-D565-45C8-827C-5AC2244E2DD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cadastros1.Data", "Cadastros1.DATA\Cadastros1.Data.csproj", "{82FE7A5E-025B-4D0D-8C20-2CD4E8C698FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cadastros1.ViewModel", "Cadastros1.ViewModel\Cadastros1.ViewModel.csproj", "{5ABD06AB-192A-418E-90BE-012EA66D753B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cadastros1.Dto", "Cadastros1.Dto\Cadastros1.Dto.csproj", "{1B410674-70BE-4135-A19A-5DA2ABA12CD6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0AA69ED1-81F2-4BED-B602-9010874D4CF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AA69ED1-81F2-4BED-B602-9010874D4CF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AA69ED1-81F2-4BED-B602-9010874D4CF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AA69ED1-81F2-4BED-B602-9010874D4CF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C90A316B-AAE0-429C-A5F1-9C2B9B9A9734}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C90A316B-AAE0-429C-A5F1-9C2B9B9A9734}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C90A316B-AAE0-429C-A5F1-9C2B9B9A9734}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C90A316B-AAE0-429C-A5F1-9C2B9B9A9734}.Release|Any CPU.Build.0 = Release|Any CPU
+		{070748C1-D565-45C8-827C-5AC2244E2DD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{070748C1-D565-45C8-827C-5AC2244E2DD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{070748C1-D565-45C8-827C-5AC2244E2DD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{070748C1-D565-45C8-827C-5AC2244E2DD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82FE7A5E-025B-4D0D-8C20-2CD4E8C698FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82FE7A5E-025B-4D0D-8C20-2CD4E8C698FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82FE7A5E-025B-4D0D-8C20-2CD4E8C698FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82FE7A5E-025B-4D0D-8C20-2CD4E8C698FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5ABD06AB-192A-418E-90BE-012EA66D753B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5ABD06AB-192A-418E-90BE-012EA66D753B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5ABD06AB-192A-418E-90BE-012EA66D753B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5ABD06AB-192A-418E-90BE-012EA66D753B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B410674-70BE-4135-A19A-5DA2ABA12CD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B410674-70BE-4135-A19A-5DA2ABA12CD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B410674-70BE-4135-A19A-5DA2ABA12CD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B410674-70BE-4135-A19A-5DA2ABA12CD6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
